@@ -1,11 +1,14 @@
 {
     "UIView": 
     [
-        "backgroundColor"
+        "backgroundColor",
+        "tintColor"
     ],
     "UILabel":
     [ 
-        "textColor"
+        "textColor",
+        "shadowColor",
+        "highlightedTextColor"
     ],
     "UINavigationBar":
     [ 
@@ -16,17 +19,16 @@
     [ 
         "barTintColor"
     ],
-    "UIButton":
-    [ 
-        "titleColor"
-    ],
     "UIBarButtonItem":
     [ 
         "tintColor"
     ],
     "UITableView":
     [ 
-        "separatorColor"
+        "separatorColor",
+        "sectionIndexColor",
+        "sectionIndexBackgroundColor",
+        "sectionIndexTrackingBackgroundColor"
     ],
     "UITextView":
     [
@@ -35,5 +37,38 @@
     "UITextField":
     [
         "textColor"
+    ],
+    "UIControl":
+    [
+        "tintColor"
+    ],
+    "UIToolbar":
+    [
+        "barTintColor"    
+    ],
+    "UISwitch":
+    [
+        "onTintColor",
+        "thumbTintColor"
+    ],
+    "UISlider":
+    [
+        "minimumTrackTintColor",
+        "maximumTrackTintColor",
+        "thumbTintColor"
+    ],
+    "UISearchBar":
+    [
+        "barTintColor"
+    ],
+    "UIProgressView":
+    [
+        "progressTintColor",
+        "trackTintColor"
+    ],
+    "UIPageControl":
+    [
+        "pageIndicatorTintColor",
+        "currentPageIndicatorTintColor"
     ]
 }
